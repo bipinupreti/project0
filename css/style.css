@@ -1,0 +1,36 @@
+body
+{
+    background-color: azure;
+}
+nav
+{
+    background-color: azure;
+}
+.navbar
+{
+
+    float: right;
+    background-color: azure;
+    text-align: center;
+
+    border-radius: 10px ;
+}
+.nav-item
+{
+    list-style: none;
+    text-align: center;
+}
+.nav-item a 
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: lightgreen;
+    text-decoration: none;
+    padding: 10px;
+}
+.nav-item a:hover
+{
+    background-color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
