@@ -1,18 +1,18 @@
 body
 {
-    background-color: azure;
+    background-color: lightblue;
 }
 nav
 {
-    background-color: azure;
+    margin-top: 5px;
+    background-color: lightblue;
 }
 .navbar
 {
 
-    float: right;
-    background-color: azure;
+    float: left;
+    background-color: lightblue;
     text-align: center;
-
     border-radius: 10px ;
 }
 .nav-item
@@ -23,14 +23,58 @@ nav
 .nav-item a 
 {
     font-family: 'Times New Roman', Times, serif;
-    color: lightgreen;
+    color: rgb(26, 21, 31);
     text-decoration: none;
     padding: 10px;
 }
 .nav-item a:hover
 {
-    background-color: black;
+    background-color: lightgreen;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+}
+.sign-in
+{
+    margin-top: 5px;
+    float: right;
+}
+
+.side-bar-left
+{
+    float: left;
+    width: 20%;
+    height: 100px;
+    background-color: none;
+    opacity: 0.1;
+    border-radius: 5px;
+
+}
+.side-bar-right
+{
+    float: right;
+    width: 20%;
+    height: 100px;
+    background-color: none;
+    opacity: 0.1;
+    border-radius: 5px;
+}
+.main-content
+{
+    clear: both;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkcyan;
+    width: auto;
+    height: 100px;
+    border-radius: 5px;
+}
+.search
+{
+    width: 40%;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.form-role
+{
+    background-color: darkgoldenrod;
 }
