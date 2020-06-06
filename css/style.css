@@ -1,82 +1,79 @@
 body
 {
-    background-color: yellow;
+    background-color: black;
 }
-  
-
-  @media screen and (max-width: 991px) {
-    /* start of large tablet styles */
-    body
-    {    
-        background-color: green;
-    }
-    
-    }
-    
-    @media screen and (max-width: 767px) {
-    /* start of medium tablet styles */
-    body
-    {    
-        background-color: blue;
-    }    
-    }
-    
-    @media screen and (max-width: 479px) {
-    /* start of phone styles */
-    body
-    {    
-        background-color: yellow;
-    }
-    }
-
-
-nav
+nav 
 {
-    margin-top: 5px;
-    background-color: lightblue;
-}
-
-.navbar
-{
-
-    float: left;
-    background-color: lightblue;
-    text-align: center;
-    border-radius: 10px ;
-}
-@media screen and (max-width :767px){
-    .navbar
-    {
-        float: left;
-        background-color: red;
-        text-align: center;
-        border-radius: 10px ;
-
-    }
-}
-.nav-item
-{
-    list-style: none;
-    text-align: center;
-}
-.nav-item a 
-{
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(26, 21, 31);
-    text-decoration: none;
-    padding: 10px;
-}
-.nav-item a:hover
-{
-    background-color: lightgreen;
+    background-color: burlywood;
     border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
+    height: 40px;
+    text-align: center;
 }
-.sign-in
+nav a 
 {
-    margin-top: 5px;
-    float: right;
+    color: crimson;
+    text-align: center;
+    padding: 10px;
+    text-decoration:none;
+}
+nav a:hover
+{
+    text-decoration: none;
+    font-style: bold;
+}
+.responsive
+{
+    padding: 5px;
+    height: 40px;
+    width: auto;
 }
 
+.registration
+{
+    height: 40px;
+    float: right;
+    list-style-type: none;
+    
+}
+.register
+{
+    margin-top: 5px;
+    float: left;
+}
+.register a 
+{
+    margin-right: 10px;
+    padding: 14px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.register a:hover
+{
+    background-color: darkgray;
+}
+
+.form-inline
+{
+    margin:10px 0px 0px 40px;
+
+}
+.form-inline .form-control
+{
+    padding: 10px;
+    margin-right: 10px;
+    height: 60px;
+    border-radius: 10px;
+    
+}
+
+.form-inline .search-button
+{
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
 
